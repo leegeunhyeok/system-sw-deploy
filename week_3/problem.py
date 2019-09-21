@@ -98,6 +98,19 @@ else:
     
 # 다음 세 개의 숫자 중 가장 큰수를 출력하시오
 # 12, 6, 18
+a = 12
+b = 6
+c = 18
+if a > b:
+    if a > c:
+        print(a)
+    else:
+        print(c)
+else:
+    if b > c:
+        print(b)
+    else:
+        print(c)
 
 # 주민등록번호에서 남자, 여자를 판별하시오.
 # 임의의 주민등록번호 값을 가지고 구현
