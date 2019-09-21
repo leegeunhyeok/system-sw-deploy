@@ -85,13 +85,13 @@ print('사과' in q2.values())
  0 ~ 20 :  F학점
 """
 score = 89
-if (score > 80 and score <= 100):
+if (80 < score <= 100):
     print('A')
-elif (score > 60 and score <= 80):
+elif (60 < score <= 80):
     print('B')
-elif (score > 40 and score <= 60):
+elif (40 < score <= 60):
     print('C')
-elif (score > 20 and score <= 40):
+elif (20 < score <= 40):
     print('D')
 else:
     print('F')
